@@ -1,0 +1,145 @@
+body {
+    background-color: #fff;
+    color: #000;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Space Grotesk", sans-serif;
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 1300px;
+    padding: 0 40px;
+    margin: auto;
+  }
+  .logo {
+    text-align: center;
+  }
+  .logo span {
+    font-size: 14px;
+  }
+  .logo h3 {
+    color: #fff;
+    font-size: 22px;
+    line-height: 18px;
+  }
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+  }
+  #nav {
+    background-color: #0e0e11;
+  }
+  .estProject {
+    background-color: #ce8578;
+    padding: 15px;
+    color: #000;
+    border-radius: 30px;
+  }
+  .estProject a {
+    color: #0e0e11;
+    text-decoration: none;
+  }
+  .navbar-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+  }
+  .navbar-links .middle-navLinks a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    transition: 0.3s linear;
+  }
+  .navbar-links .middle-navLinks a:hover {
+    color: #ce8578;
+  }
+  .navbar-active-link {
+    color: #ce8578 !important;
+  }
+  /* contact */
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .left-contact {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+  .left-contact h1 {
+    color: #0e0e11;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .left-contact p {
+    color: #0e0e11;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px; /* 141.667% */
+  }
+  .contact-inputs .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .form .form-control {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 0;
+  }
+  .form-control input,
+  textarea {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 17, 0.15);
+    padding: 15px;
+    transition: 0.3s linear;
+  }
+  .form-control button {
+    border-radius: 10px;
+    background-color: #ce8578;
+    color: #000;
+    width: 100px;
+    padding: 15px;
+    font-weight: 600;
+    border: none;
+  }
+  .form-control input:focus {
+    border-bottom-color: rgba(14, 14, 17, 0.5) !important;
+  }
+  .form-control textarea:focus {
+    border-bottom-color: rgba(14, 14, 17, 0.5) !important;
+  }
+  .right-contact {
+    width: 50%;
+  }
+  .right-contact img {
+    width: 100%;
+    height: 100%;
+  }
+  @media screen and (max-width: 800px) {
+    .contact {
+      flex-direction: column;
+    }
+    .left-contact {
+      width: 100%;
+    }
+    .right-contact {
+      width: 100%;
+      margin-top: 20px;
+    }
+    .right-contact img {
+      width: 100%;
+    }
+  }
+  
