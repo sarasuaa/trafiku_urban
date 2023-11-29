@@ -11,7 +11,7 @@ body {
   .container {
     max-width: 1300px;
     padding: 0 40px;
-    margin: auto;
+    /* margin: auto; */
   }
   .logo {
     text-align: center;
