@@ -1,0 +1,36 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+
+header {
+display: flex;
+background-color: #fff;
+color: #333;
+padding: 10px;
+text-align: center;
+justify-content: space-between;
+}
+
+nav {
+background-color: #938473;
+color: #fff;
+padding: 10px;
+list-style: none;
+text-decoration: none;
+text-align: center;
+}
+
+nav a {
+text-decoration: none;
+color: #fff;
+}  
+
+.contanier{
+    border: 10px solid #333;
+}
+.contanier .mapp h1, h2, h3, p{
+    text-align: center;
+}
