@@ -1,494 +1,500 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  
-  .home {
-    background-image:url(/volvo.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  .navbar {
-    position: fixed;
-    background-color: #fff;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    width: 100%;
-  }
-  .nav-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    align-items: center;
-  }
-  
-  .links {
-    display: flex;
-  }
-  
-  .links a {
-    color: #000;
-    padding: 25px 15px;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  
-  .links a:hover {
-    background-color: #d5d5d5;
-  }
-  
-  .text-home {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    margin: 0 100px;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.home {
+  background-image:url(/volvo.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navbar {
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  width: 100%;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+}
+
+.links a {
+  color: #000;
+  padding: 25px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.links a:hover {
+  background-color: #d5d5d5;
+}
+
+.text-home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin: 0 100px;
+}
 
 
-  .text-home-container {
-    color: #fff;
-  }
-  
-  .text-home-container h1 {
-    font-size: 70px;
-    color: #fff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  
-  .home-btn {
-    width: 40%;
-  }
-  
-  .home-btn button {
-    padding: 20px;
-    cursor: pointer;
-    width: 100%;
-    font-size: 16px;
-    background-color: gray;
-    border: none;
-  }
-  
-  .home-btn button:hover {
-    background-color: rgb(180, 180, 180);
-  }
-  
-  /* about */
-  .about-boxes {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    width: 100%;
-  }
-  
-  .center-title {
-    text-align: center;
-    margin: 30px 0;
-  }
-  
-  .about-box {
-    padding: 15px;
-    width: 20%;
-  }
-  
-  .about-box i {
-    margin: 15px 0;
-    font-size: 60px;
-  }
-  
-  
-  #weKnowDesign {
-    background-color: #d5d5d5;
-    padding: 50px;
-    margin: 50px 0;
-  }
-  
-  .weKnow-container {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .weKnow-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 45%;
-  }
-  
-  .weKnow-btn {
-    width: 40%;
-  }
-  
-  .weKnow-btn button {
-    width: 100%;
-    border: none;
-    background-color: #000;
-    color: #fff;
-    padding: 20px;
-    cursor: pointer;
-    margin: 20px 0;
-    font-size: 15px;
-  }
-  
-  .weKnow-btn button:hover {
-    background-color: gray;
-    color: #000;
-  }
-  
-  /* team */
-  .team-boxes {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .team-box {
-    width: 23%;
-    margin: 10px;
-    background-color: #fff;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  }
-  
-  .team-box img {
-    width: 100%;
-  }
-  
+.text-home-container {
+  color: #fff;
+}
+
+.text-home-container h1 {
+  font-size: 70px;
+  color: #fff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.home-btn {
+  width: 40%;
+}
+
+.home-btn button {
+  padding: 20px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  background-color: gray;
+  border: none;
+}
+
+.home-btn button:hover {
+  background-color: rgb(180, 180, 180);
+}
+
+/* about */
+.about-boxes {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+}
+
+.center-title {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.about-box {
+  padding: 15px;
+  width: 20%;
+}
+
+.about-box i {
+  margin: 15px 0;
+  font-size: 60px;
+}
+
+
+#weKnowDesign {
+  background-color: #d5d5d5;
+  padding: 50px;
+  margin: 50px 0;
+}
+
+.weKnow-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.weKnow-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+}
+
+.weKnow-btn {
+  width: 40%;
+}
+
+.weKnow-btn button {
+  width: 100%;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  cursor: pointer;
+  margin: 20px 0;
+  font-size: 15px;
+}
+
+.weKnow-btn button:hover {
+  background-color: gray;
+  color: #000;
+}
+
+/* team */
+.team-boxes {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-box {
+ 
+  width: 23%;
+  margin: 10px 0;
+  background-color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.team-box img {
+  width: 100%;
+}
+
   .team-box-desc {
+    flex-basis: 25%;
     padding: 10px;
-  }
-  
-  .team-box-desc h3 {
-    margin: 15px 0;
-  }
-  
-  .team-btn {
-    width: 100%;
-  }
-  
-  .team-btn button {
-    border: none;
-    background-color: #e0e0e0;
-    padding: 15px;
-    width: 100%;
-    cursor: pointer;
-    font-size: 16px;
-    margin: 20px 0 0 0;
-  }
-  
-  .team-btn button:hover {
-    background-color: #ccc;
+    min-width: 200px;
+    margin-bottom: 50px;
   }
 
-  #partners {
-    padding: 30px 0;
-    margin: 30px 0;
-    background-color: #616161;
+.team-box-desc h3 {
+  margin: 15px 0;
+}
+
+.team-btn {
+  width: 100%;
+}
+
+.team-btn button {
+  border: none;
+  background-color: #e0e0e0;
+  padding: 15px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px 0 0 0;
+}
+
+.team-btn button:hover {
+  background-color: #ccc;
+}
+
+#partners {
+  padding: 30px 0;
+  margin: 30px 0;
+  background-color: #616161;
+}
+
+.partners-boxes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.partnes-box {
+  width: 24%;
+  color: #fff;
+  margin: 20px;
+  text-align: center;
+}
+
+/* work */
+.work-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.work-grid img {
+  width: 23%;
+  margin: 10px;
+}
+
+/* skill */
+.skill-bg {
+  background-color: #9e9e9e;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.skill-fg {
+  background-color: #616161;
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  background-color: #f1f1f1;
+  padding: 50px 0;
+}
+
+.skills-skill {
+  width: 50%;
+  margin: 0 20px;
+}
+
+.skills-text {
+  margin: 0 20px;
+  width: 45%;
+}
+
+.skills-skill span {
+  margin: 10px 0;
+}
+
+/* pricing */
+.heroBanner {
+  padding: 50px 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 10px;
+  margin: 50px 40px;
+}
+
+.row .col {
+  flex-basis: 33%;
+}
+
+.row .col .card {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.row .col .card .card-pro {
+  height: 100% !important;
+}
+
+.row .col .card .card-header {
+  background-color: black;
+  color: white;
+}
+
+.row .col .card-pro .card-header {
+  background-color: red !important;
+  padding: 25px 0;
+}
+
+.row .col .card .card-body {
+  width: 100%;
+}
+
+.row .col .card .card-body p{
+  padding: 12px;
+}
+.row .col .card .card-footer {
+  width: 100%;
+}
+.row .col .card .card-footer button{
+    margin: 18px;
+}
+
+.card-header {
+  text-align: center;
+  border-radius: 4px;
+  padding: 15px 0;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-body ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+li {
+  border-bottom: 1px solid gray;
+  padding: 10px 0;
+}
+
+.card-footer {
+  text-align: center;
+}
+
+.card-footer button {
+  padding: 12px 17px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+}
+
+.col {
+  box-shadow: -2px -9px 18px 12px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+}
+
+#pricing {
+  background-color: #616161 !important;
+  padding: 50px 0;
+}
+
+/* contact */
+.contant-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  width: 100%;
+  display: flex;
+}
+
+.form-control input {
+  padding: 10px;
+  width: 100%;
+
+  margin: 10px 0;
+}
+
+.contact-btn {
+  width: 40%;
+}
+
+.contact-btn button {
+  width: 100%;
+  background-color: #000;
+  border: none;
+  padding: 20px;
+  font-size: 17px;
+  color: #fff;
+}
+
+#map {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#map img {
+  width: 95%;
+  margin: auto;
+}
+
+#footer {
+  background-color: #000;
+  padding: 50px 0;
+  margin: 30px 0 0 0;
+  text-align: center;
+  color: #fff;
+}
+
+.topBtn {
+  text-decoration: none;
+  background-color: #ccc;
+  padding: 15px;
+  margin: 15px auto;
+  width: 100px;
+  color: #000;
+}
+
+.topBtn a {
+  color: #000;
+  text-decoration: none;
+}
+
+.sm i {
+  font-size: 25px;
+  margin: 0 10px;
+}
+
+
+
+@media(max-width: 767px) {
+  .nav-container {
+    flex-direction: column;
   }
-  
-  .partners-boxes {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .partnes-box {
-    width: 24%;
-    color: #fff;
-    margin: 20px;
-    text-align: center;
-  }
-  
-  /* work */
-  .work-grid {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .work-grid img {
-    width: 23%;
-    margin: 10px;
-  }
-  
-  /* skill */
-  .skill-bg {
-    background-color: #9e9e9e;
-    width: 100%;
-    margin: 15px 0;
-  }
-  
-  .skill-fg {
-    background-color: #616161;
-    text-align: center;
-  }
-  
-  .skills-container {
-    display: flex;
-    background-color: #f1f1f1;
-    padding: 50px 0;
-  }
-  
-  .skills-skill {
-    width: 50%;
-    margin: 0 20px;
-  }
-  
-  .skills-text {
-    margin: 0 20px;
-    width: 45%;
-  }
-  
-  .skills-skill span {
-    margin: 10px 0;
-  }
-  
-  /* pricing */
-  .heroBanner {
-    padding: 50px 0;
-  }
-  
-  .row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    column-gap: 10px;
-    margin: 50px 40px;
-  }
-  
-  .row .col {
-    flex-basis: 33%;
-  }
-  
-  .row .col .card {
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-  }
-  
-  .row .col .card .card-pro {
-    height: 100% !important;
-  }
-  
-  .row .col .card .card-header {
-    background-color: black;
-    color: white;
-  }
-  
-  .row .col .card-pro .card-header {
-    background-color: red !important;
-    padding: 25px 0;
-  }
-  
-  .row .col .card .card-body {
-    width: 100%;
-  }
-  
-  .row .col .card .card-body p{
-    padding: 12px;
-  }
-  .row .col .card .card-footer {
-    width: 100%;
-  }
-  .row .col .card .card-footer button{
-      margin: 18px;
-  }
-  
-  .card-header {
-    text-align: center;
-    border-radius: 4px;
-    padding: 15px 0;
-  }
-  
-  .card-body {
-    text-align: center;
-  }
-  
-  .card-body ul {
-    list-style-type: none;
+
+  .links {
     padding: 0;
-  }
-  
-  h3 {
+    flex-direction: column;
     margin: 0;
   }
-  
-  li {
-    border-bottom: 1px solid gray;
-    padding: 10px 0;
-  }
-  
-  .card-footer {
+
+  .text-home {
+    height: auto;
     text-align: center;
   }
-  
-  .card-footer button {
-    padding: 12px 17px;
-    border: 1px solid white;
-    background-color: black;
-    color: white;
+
+  .navbar {
+    position: relative;
   }
-  
-  .col {
-    box-shadow: -2px -9px 18px 12px rgba(0, 0, 0, 0.16);
-    border-radius: 4px;
+
+  .home-btn {
+    width: 100%;
   }
-  
-  #pricing {
-    background-color: #616161 !important;
-    padding: 50px 0;
-  }
-  
-  /* contact */
-  .contant-container {
-    display: flex;
+
+  .about-boxes {
     flex-direction: column;
-    margin: 20px;
-  }
-  
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .form-control {
-    width: 100%;
-    display: flex;
-  }
-  
-  .form-control input {
-    padding: 10px;
-    width: 100%;
-  
-    margin: 10px 0;
-  }
-  
-  .contact-btn {
-    width: 40%;
-  }
-  
-  .contact-btn button {
-    width: 100%;
-    background-color: #000;
-    border: none;
-    padding: 20px;
-    font-size: 17px;
-    color: #fff;
-  }
-  
-  #map {
-    margin-top: 15px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  
-  #map img {
-    width: 95%;
-    margin: auto;
-  }
-  
-  #footer {
-    background-color: #000;
-    padding: 50px 0;
-    margin: 30px 0 0 0;
     text-align: center;
-    color: #fff;
+    align-items: center;
   }
-  
-  .topBtn {
-    text-decoration: none;
-    background-color: #ccc;
-    padding: 15px;
-    margin: 15px auto;
-    width: 100px;
-    color: #000;
+
+  .weKnow-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
-  
-  .topBtn a {
-    color: #000;
-    text-decoration: none;
+
+  .weKnow-text {
+    align-items: center;
   }
-  
-  .sm i {
-    font-size: 25px;
-    margin: 0 10px;
+
+  .team-boxes {
+    align-items: center;
+    flex-direction: column;
   }
-  
-  
-  
-  @media(max-width: 767px) {
-    .nav-container {
-      flex-direction: column;
-    }
-  
-    .links {
-      padding: 0;
-      flex-direction: column;
-      margin: 0;
-    }
-  
-    .text-home {
-      height: auto;
-      text-align: center;
-    }
-  
-    .navbar {
-      position: relative;
-    }
-  
-    .home-btn {
-      width: 100%;
-    }
-  
-    .about-boxes {
-      flex-direction: column;
-      text-align: center;
-      align-items: center;
-    }
-  
-    .weKnow-container {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-  
-    .weKnow-text {
-      align-items: center;
-    }
-  
-    .team-boxes {
-      align-items: center;
-      flex-direction: column;
-    }
-  
-    .team-box {
-      width: 80%;
-      text-align: center;
-    }
-  
-    .work-grid {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .work-grid img {
-      width: 75%;
-    }
-  
-    .skills-container{
-      flex-direction: column;
-      align-items: center;
-    }
-      .skills-text{
-        margin-bottom: 25px;
-      }
-    .row {
-      flex-direction: column;
-     
-    }
-    .row .col {
-      flex-basis: 80%;
-    }
+
+  .team-box {
+    width: 80%;
+    text-align: center;
   }
+
+  .work-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .work-grid img {
+    width: 75%;
+  }
+
+  .skills-container{
+    flex-direction: column;
+    align-items: center;
+  }
+    .skills-text{
+      margin-bottom: 25px;
+    }
+  .row {
+    flex-direction: column;
+   
+  }
+  .row .col {
+    flex-basis: 80%;
+  }
+}
