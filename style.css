@@ -247,3 +247,248 @@
     padding: 50px 0;
   }
   
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10px;
+    margin: 50px 40px;
+  }
+  
+  .row .col {
+    flex-basis: 33%;
+  }
+  
+  .row .col .card {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .row .col .card .card-pro {
+    height: 100% !important;
+  }
+  
+  .row .col .card .card-header {
+    background-color: black;
+    color: white;
+  }
+  
+  .row .col .card-pro .card-header {
+    background-color: red !important;
+    padding: 25px 0;
+  }
+  
+  .row .col .card .card-body {
+    width: 100%;
+  }
+  
+  .row .col .card .card-body p{
+    padding: 12px;
+  }
+  .row .col .card .card-footer {
+    width: 100%;
+  }
+  .row .col .card .card-footer button{
+      margin: 18px;
+  }
+  
+  .card-header {
+    text-align: center;
+    border-radius: 4px;
+    padding: 15px 0;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-body ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  h3 {
+    margin: 0;
+  }
+  
+  li {
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+  }
+  
+  .card-footer {
+    text-align: center;
+  }
+  
+  .card-footer button {
+    padding: 12px 17px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+  }
+  
+  .col {
+    box-shadow: -2px -9px 18px 12px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+  }
+  
+  #pricing {
+    background-color: #616161 !important;
+    padding: 50px 0;
+  }
+  
+  /* contact */
+  .contant-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-control {
+    width: 100%;
+    display: flex;
+  }
+  
+  .form-control input {
+    padding: 10px;
+    width: 100%;
+  
+    margin: 10px 0;
+  }
+  
+  .contact-btn {
+    width: 40%;
+  }
+  
+  .contact-btn button {
+    width: 100%;
+    background-color: #000;
+    border: none;
+    padding: 20px;
+    font-size: 17px;
+    color: #fff;
+  }
+  
+  #map {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #map img {
+    width: 95%;
+    margin: auto;
+  }
+  
+  #footer {
+    background-color: #000;
+    padding: 50px 0;
+    margin: 30px 0 0 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .topBtn {
+    text-decoration: none;
+    background-color: #ccc;
+    padding: 15px;
+    margin: 15px auto;
+    width: 100px;
+    color: #000;
+  }
+  
+  .topBtn a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .sm i {
+    font-size: 25px;
+    margin: 0 10px;
+  }
+  
+  
+  
+  @media(max-width: 767px) {
+    .nav-container {
+      flex-direction: column;
+    }
+  
+    .links {
+      padding: 0;
+      flex-direction: column;
+      margin: 0;
+    }
+  
+    .text-home {
+      height: auto;
+      text-align: center;
+    }
+  
+    .navbar {
+      position: relative;
+    }
+  
+    .home-btn {
+      width: 100%;
+    }
+  
+    .about-boxes {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .weKnow-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .weKnow-text {
+      align-items: center;
+    }
+  
+    .team-boxes {
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .team-box {
+      width: 80%;
+      text-align: center;
+    }
+  
+    .work-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .work-grid img {
+      width: 75%;
+    }
+  
+    .skills-container{
+      flex-direction: column;
+      align-items: center;
+    }
+      .skills-text{
+        margin-bottom: 25px;
+      }
+    .row {
+      flex-direction: column;
+     
+    }
+    .row .col {
+      flex-basis: 80%;
+    }
+  }
