@@ -24,19 +24,77 @@
 
     <script>
 
-        function validateForm() {
-            var password = document.getElementById("password").value;
-            var confirmPassword = document.getElementById("confirmPassword").value;
+        let nameRegex = /^[A-Z][a-z]{3,8}$/;
+        let surnameRegex = /^[A-Z][a-z]{3,8}$/;
+        let emailRegex = /[a-zA-Z.-_][a-z]+\.+[a-z]{2,3}$/;
+        let PasswordRegex = /^[A-Za-z]\w{7,14}$/;
 
-            if (password !== confirmPassword) {
-                alert("Passwords do not match");
-                return false;
+        function validateForm() {
+            let nameInput = document.getElementById('name');
+            let nameError = document.getElementById('nameError');
+
+            let SurnameInput = document.getElementById('surname');
+            let SurnameError = document.getElementById('surnameError');
+
+            let emailInput = document.getElementById('email');
+            let emailError = document.getElementById('emailError');
+
+            let PasswordInput = document.getElementById('password');
+            let PasswordError = document.getElementById('passwordError');
+
+            nameError.innerText = '';
+            SurnameError.innerText = '';
+            emailError.innerText = '';
+            PasswordError.innerText = '';
+
+
+            if (!nameRegex.test(nameInput.value)) {
+                nameError.innerText = 'invalid name';
+                return;
+            }
+            if (!nameRegex.test(SurnameInput.value)) {
+                SurnameError.innerText = 'invalid surname';
+                return;
+            }
+            if (!emailRegex.test(emailInput.value)) {
+                emailError.innerText = 'invalid email';
+                return;
+            }
+            if (!PasswordRegex.test(PasswordInput.value)) {
+                PasswordError.innerText = 'invalid password';
+                return;
             }
 
-            return true;
+            alert('Form submitted succesfully!');
         }
 
+
+        function validateForm2() {
+        
+            let emailInput = document.getElementById('email2');
+            let emailError = document.getElementById('emailError2');
+
+            let PasswordInput = document.getElementById('password2');
+            let PasswordError = document.getElementById('passwordError2');
+
+            
+            emailError.innerText = '';
+            PasswordError.innerText = '';
+
+
+            if (!emailRegex.test(emailInput.value)) {
+                emailError.innerText = 'invalid email';
+                return;
+            }
+            if (!PasswordRegex.test(PasswordInput.value)) {
+                PasswordError.innerText = 'invalid password';
+                return;
+            }
+
+            alert('Form submitted succesfully!');
+        }
     </script>
+
     <title>Document</title>
 </head>
 </html>
