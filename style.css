@@ -424,6 +424,14 @@ li {
   margin: 0 10px;
 }
 
+.slider{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 5% 0 ;
+   width: 10%; 
+   height: 10%;
+}
+
 
 
 @media(max-width: 767px) {
