@@ -1,0 +1,52 @@
+<?php
+class User{
+    private $Id; //e kemi shtu Id direkt ne db me AutoIncrement
+    private $username;
+    private $email;
+    private $password;
+    private $confirm;
+
+
+    public function __construct($username,$email,$password,$confirm){
+        $this->username=$username;
+        $this->email=$email;
+        $this->password=$password;
+        $this->confirm=$confirm;
+    }
+  /* public function getId(){
+        return $this->Id;
+    }*/
+   
+
+    public function getEmail(){
+        return $this->email;
+    }
+    public function setEmaili($email){
+        $this->email = $email;
+    }
+    public function getUsername(){
+        return $this->username;
+    }
+    public function setUsername($username){
+        $this->username = $username;
+    }
+    public function getPassword(){
+        return $this->password;
+    }
+    public function setPassword($password){
+        $this->password = $password;
+    }
+    public function getConfirm(){
+        return $this->confirm;
+    }
+    public function setConfirm($confirm){
+        $this->confirm = $confirm;
+    }
+  
+
+
+    public function __toString(){
+        return "Username: ".$this->username." dhe email ".$this->email;
+    }
+}
+?>

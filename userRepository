@@ -1,0 +1,83 @@
+<?php
+    include_once('DatabaseConnection.php');
+
+    class userRepository{
+        private $connection;
+
+        public function __construct()
+        {
+            $conn = new DatabaseConnection;
+            $this->connection = $conn->startConnection();
+        }
+
+        public function insertUser($reg){
+            $conn = $this->connection;
+
+            $username = $reg->getUsername();
+            $email = $reg->getEmail();
+            $password = $reg->getPassword();
+            $confirm = $reg->getConfirm();
+           
+        
+           
+
+            $sql = "INSERT INTO sara(username , email,  password , confirm) VALUES (?,?,?,?)";
+
+            $statement = $conn->prepare($sql);
+            $statement->execute([$username, $email,$password,$confirm]);
+
+            echo "<script>alert('U shtua me sukses!')</script>";
+        }
+
+        public function getAllUsers(){
+            $conn = $this->connection;
+
+            $sql = "SELECT * FROM sara";
+            $statement = $conn->query($sql);
+
+            $reg = $statement->fetchAll();
+            return $reg;
+        }
+
+     
+
+
+         public function editUsers($username, $email,$password,$confirm, $id) {
+            try {
+                $conn = $this->connection;
+                $sql = "UPDATE form SET username=?, email=?, password=? , confirm =? WHERE Id=?";
+                $statement = $conn->prepare($sql);
+                $statement->execute([$username, $email,$password,$confirm, $id]);
+                echo "<script>alert('U ndryshua me sukses!')</script>";
+            } catch (PDOException $e) {
+                echo "Error: " . $e->getMessage();
+            }
+        }
+
+        function deleteUsers($id){
+            $conn = $this->connection;
+
+            $sql = "DELETE FROM sara WHERE Id=?";
+
+            $statement = $conn->prepare($sql);
+            $statement->execute([$id]);
+        }
+
+        
+        function getUserById($id){
+            $conn = $this->connection;
+
+            $sql = "SELECT * FROM sara WHERE Id=?";
+
+            $statement = $conn->prepare($sql);
+            $statement->execute([$id]);
+            $reg=$statement->fetch();
+
+            return $reg;
+        }
+
+       
+
+    }
+
+?>
